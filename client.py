@@ -9,7 +9,7 @@ print("\t\t\t\n=================================================")
 client_socket.connect((host_ip,port))
 data = b""
 payload_size = struct.calcsize("Q")
-print("Socket Accept")
+print("Socket Accepted")
 print("\t\t\t\n=================================================")
 
 while True:
@@ -32,5 +32,5 @@ while True:
         break
 client_socket.close()
 
-print("Thank you guy's")
+print("Thank you all")
 print("\t\t\t\n=================================================")
